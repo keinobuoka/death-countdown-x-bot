@@ -96,11 +96,16 @@ PROMO_BODIES = [
 
 
 def build_evening(data) -> str:
+    # URL付き投稿は$0.20/件と高いため、リンク付き紹介は日曜のみ。他はTips/紹介文のみ
     now = datetime.datetime.now(JST)
-    if now.weekday() == 6 or now.toordinal() % 2 == 0:
-        # 日曜 or 偶数日: アプリ紹介(リンク付き)
+    if now.weekday() == 6:
+        # 日曜: アプリ紹介(ストアリンク付き)
         body = PROMO_BODIES[daily_index(len(PROMO_BODIES))]
         return f"{body}\n\n{STORE_URL}\n\n#メメントモリ #死ぬまでカウントダウン"
+    if now.toordinal() % 2 == 0:
+        # 偶数日: アプリ紹介(リンクなし・プロフィールへ誘導)
+        body = PROMO_BODIES[daily_index(len(PROMO_BODIES))]
+        return f"{body}\n\n📱 アプリはプロフィールのリンクから\n\n#メメントモリ #死ぬまでカウントダウン"
     # 奇数日: Tips
     tips = data["tips"]
     tip = tips[daily_index(len(tips), offset=3)]
