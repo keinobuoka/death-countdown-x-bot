@@ -1,0 +1,63 @@
+name: Instagram and Threads auto post
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 07:00 JST
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'true なら投稿せず本文表示のみ'
+        default: 'false'
+      only:
+        description: 'instagram / threads / 空欄で両方'
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          pip install Pillow
+
+      - name: Generate today's card and publish to Pages
+        run: |
+          python3 - <<'PY'
+          import datetime, json, card
+          JST = datetime.timezone(datetime.timedelta(hours=9))
+          stamp = datetime.datetime.now(JST).strftime("%Y%m%d")
+          import bot
+          data = bot.load_data()
+          card.build(bot.today_quote(data), f"cards/{stamp}.png")
+          print("card:", stamp)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cards
+          git commit -m "card $(date -u -d '+9 hours' '+%Y-%m-%d')" || echo "no change"
+          git push
+
+      - name: Wait for Pages to serve the image
+        run: sleep 90
+
+      - name: Post
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry }}" = "true" ]; then ARGS="$ARGS --dry"; fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
+          python3 social.py $ARGS

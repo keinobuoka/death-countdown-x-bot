@@ -24,3 +24,25 @@ GitHub Actions が毎日2回、X (@アカウント) に自動投稿する。
 - 投稿ロジックは `bot.py`。日替わりの選び方はアプリの表示と同期している
 - X Free プランの上限は月500投稿。1日2投稿=月60なので余裕
 - 止めたいときは Actions タブでワークフローを Disable
+
+## Instagram / Threads 自動投稿
+
+毎朝 7:00 JST に、その日の名言カードを Instagram と Threads へ自動投稿する
+（`social.py` + `.github/workflows/social.yml`）。
+
+画像は両APIとも「公開URL」しか受け付けないため、カードを `cards/YYYYMMDD.png` として
+このリポジトリにコミットし、GitHub Pages 経由で配信している。
+
+### 必要な設定（1回だけ）
+
+1. **Instagram をプロアカウントに**（設定 → アカウントの種類 → プロアカウントに切り替え）
+2. Facebookページを作り、Instagram と連携する
+3. https://developers.facebook.com でアプリを作成
+   - Instagram: `instagram_business_content_publish`, `pages_read_engagement` 等の権限
+   - Threads: 「Threads」ユースケースを追加し `threads_basic`, `threads_content_publish`
+4. 長期アクセストークン（60日）を発行し、Secrets に登録:
+   - `IG_USER_ID` / `IG_ACCESS_TOKEN`
+   - `THREADS_USER_ID` / `THREADS_ACCESS_TOKEN`
+5. リポジトリの Settings → Pages で、Source を `main` ブランチのルートにして有効化
+
+トークンは60日で切れるので、期限が近づいたら再発行して Secrets を更新する。
