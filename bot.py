@@ -65,27 +65,49 @@ def author_line(q) -> str:
     return f"— {q['author_ja']}{t}"
 
 
-def build_morning(data) -> str:
+def today_quote(data):
     pool = interleaved(data)
-    q = pool[daily_index(len(pool))]
-    lines = [f"「{q['ja']}」"]
+    return pool[daily_index(len(pool))]
+
+
+def days_left_of_year() -> int:
+    now = datetime.datetime.now(JST).date()
+    return (datetime.date(now.year, 12, 31) - now).days
+
+
+def build_morning(data) -> str:
+    """画像に名言を載せるので、本文は「自分ごと化」のフックに徹する。"""
+    q = today_quote(data)
+    year = datetime.datetime.now(JST).year
+    hook = f"{year}年も残り{days_left_of_year()}日。"
+    lines = [hook, ""]
+    lines.append(f"「{q['ja']}」" if not q["tip"] else q["ja"])
     al = author_line(q)
     if al:
         lines.append(al)
     body = "\n".join(lines)
-    # 英語原文は文字数に余裕がある時だけ併記
-    if not q["tip"] and not q["ja_original"]:
-        with_en = body + "\n\n" + q["en"]
-        if weighted_len(with_en + "\n\n#メメントモリ #名言") <= 275:
-            body = with_en
-    body += "\n\n#メメントモリ #名言"
+    body += "\n\n#メメントモリ"
+    # 長すぎる場合は名言を画像に任せ、本文は短く
+    if weighted_len(body) > 270:
+        body = f"{hook}\n\n{al}\n\n#メメントモリ" if al else f"{hook}\n\n#メメントモリ"
     return body
 
 
 TIP_CLOSERS = [
-    "ホーム画面に残り日数を置くと、毎日が少し変わる ⏳",
-    "あなたの残り時間、何日か知っていますか ⏳",
-    "時間は最も公平な資源。全員に1日24時間 ⏳",
+    "ホーム画面に残り日数を置くと、毎日が少し変わる。",
+    "あなたに残された日数、数えたことはありますか。",
+    "時間は最も公平な資源。全員に1日24時間。",
+]
+
+# 反応を取りにいく問いかけ型（リプライが付くとタイムラインに乗りやすい）
+QUESTIONS = [
+    "もし残りの人生が1000日だと分かったら、明日いちばんにやることは何ですか。",
+    "80年を日数にすると約29,200日。あなたはいま何日目でしょうか。",
+    "今日が人生最後の日だとしたら、今日の予定を変えますか。",
+    "10年後の自分から見て、今日という日は「何をしていた日」ですか。",
+    "1日は86,400秒。今日、意図して使った秒はどれくらいありますか。",
+    "やらないまま10年経ったことを、ひとつだけ挙げるとしたら何ですか。",
+    "あなたが今週いちばん時間を使ったことは、来年も覚えていますか。",
 ]
 
 PROMO_BODIES = [
@@ -96,8 +118,12 @@ PROMO_BODIES = [
 
 
 def build_evening(data) -> str:
-    # URL付き投稿は$0.20/件と高いため、リンク付き紹介は日曜のみ。他はTips/紹介文のみ
+    # URL付き投稿は$0.20/件と高いため、リンク付き紹介は日曜のみ。他はTips/問いかけ
     now = datetime.datetime.now(JST)
+    if now.weekday() in (1, 4):
+        # 火・金: 問いかけ（返信を誘って露出を取る）
+        q = QUESTIONS[daily_index(len(QUESTIONS))]
+        return f"{q}\n\n#メメントモリ"
     if now.weekday() == 6:
         # 日曜: アプリ紹介(ストアリンク付き)
         body = PROMO_BODIES[daily_index(len(PROMO_BODIES))]
@@ -113,17 +139,30 @@ def build_evening(data) -> str:
     return f"{tip['ja']}\n\n{closer}\n\n#メメントモリ"
 
 
-def post(text: str):
+def post(text: str, image_path: str | None = None):
     import tweepy
 
-    client = tweepy.Client(
+    auth_kwargs = dict(
         consumer_key=os.environ["X_API_KEY"],
         consumer_secret=os.environ["X_API_SECRET"],
         access_token=os.environ["X_ACCESS_TOKEN"],
         access_token_secret=os.environ["X_ACCESS_SECRET"],
     )
-    resp = client.create_tweet(text=text)
-    print("posted:", resp.data.get("id"))
+    client = tweepy.Client(**auth_kwargs)
+
+    media_ids = None
+    if image_path and os.path.exists(image_path):
+        # 画像アップロードは v1.1 API を使う
+        auth = tweepy.OAuth1UserHandler(
+            auth_kwargs["consumer_key"], auth_kwargs["consumer_secret"],
+            auth_kwargs["access_token"], auth_kwargs["access_token_secret"],
+        )
+        api = tweepy.API(auth)
+        media = api.media_upload(filename=image_path)
+        media_ids = [media.media_id_string]
+
+    resp = client.create_tweet(text=text, media_ids=media_ids)
+    print("posted:", resp.data.get("id"), "with_image:", bool(media_ids))
 
 
 def main():
@@ -131,11 +170,20 @@ def main():
     dry = "--dry" in sys.argv
     data = load_data()
     text = build_morning(data) if mode == "morning" else build_evening(data)
+
+    image_path = None
+    if mode == "morning":
+        try:
+            import card
+            image_path = card.build(today_quote(data), "/tmp/quote_card.png")
+        except Exception as e:  # noqa: BLE001
+            print("card generation failed:", e)
+
     print("---- post body ----")
     print(text)
-    print(f"---- weighted length: {weighted_len(text)}/280 ----")
+    print(f"---- weighted length: {weighted_len(text)}/280 ---- image: {image_path}")
     if not dry:
-        post(text)
+        post(text, image_path)
 
 
 if __name__ == "__main__":
