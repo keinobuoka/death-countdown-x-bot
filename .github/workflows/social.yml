@@ -2,9 +2,13 @@ name: Instagram and Threads auto post
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 07:00 JST
+    - cron: '0 22 * * *'    # 07:00 JST — 今日の名言
+    - cron: '0 12 * * *'    # 21:00 JST — 問いかけ / Tips / 紹介
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'morning / evening'
+        default: 'morning'
       dry:
         description: 'true なら投稿せず本文表示のみ'
         default: 'false'
@@ -14,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   post:
@@ -30,21 +35,25 @@ jobs:
           sudo apt-get install -y -qq fonts-noto-cjk
           pip install Pillow
 
-      - name: Generate today's card and publish to Pages
+      - name: Decide mode
+        id: mode
         run: |
-          python3 - <<'PY'
-          import datetime, json, card
-          JST = datetime.timezone(datetime.timedelta(hours=9))
-          stamp = datetime.datetime.now(JST).strftime("%Y%m%d")
-          import bot
-          data = bot.load_data()
-          card.build(bot.today_quote(data), f"cards/{stamp}.png")
-          print("card:", stamp)
-          PY
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "$(date -u +%H)" = "22" ]; then
+            echo "mode=morning" >> $GITHUB_OUTPUT
+          else
+            echo "mode=evening" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate card and publish to Pages
+        run: |
+          python3 make_card.py ${{ steps.mode.outputs.mode }}
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add cards
-          git commit -m "card $(date -u -d '+9 hours' '+%Y-%m-%d')" || echo "no change"
+          git commit -m "card $(date -u -d '+9 hours' '+%Y-%m-%d') ${{ steps.mode.outputs.mode }}" || echo "no change"
+          git pull --rebase -q origin main || true
           git push
 
       - name: Wait for Pages to serve the image
@@ -57,7 +66,18 @@ jobs:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: |
-          ARGS=""
+          ARGS="--mode ${{ steps.mode.outputs.mode }}"
           if [ "${{ github.event.inputs.dry }}" = "true" ]; then ARGS="$ARGS --dry"; fi
           if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
           python3 social.py $ARGS
+
+      - name: Report failure as an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create -R "${{ github.repository }}" \
+            --title "SNS投稿が失敗しました（$(date -u -d '+9 hours' '+%Y-%m-%d') ${{ steps.mode.outputs.mode }}）" \
+            --body "自動投稿のジョブが失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+トークン失効（Instagram / Threads は約60日）が最も多い原因です。週次の Refresh tokens が動いているかを確認してください。"

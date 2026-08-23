@@ -46,3 +46,37 @@ GitHub Actions が毎日2回、X (@アカウント) に自動投稿する。
 5. リポジトリの Settings → Pages で、Source を `main` ブランチのルートにして有効化
 
 トークンは60日で切れるので、期限が近づいたら再発行して Secrets を更新する。
+
+
+## 自動で回っているもの
+
+| いつ (JST) | 何を | どこ |
+|---|---|---|
+| 毎日 7:00 | 今日の名言（カード画像つき） | Instagram / Threads |
+| 毎日 21:00 | 問いかけ・Tips・アプリ紹介 | Instagram / Threads |
+| 毎日 7:40 | 今日の名言 | X |
+| 毎日 22:30 | 問いかけ・Tips・紹介（リンクは日曜のみ） | X |
+| 毎週月曜 4:00 | Instagram / Threads トークンの延長 | Refresh tokens |
+
+投稿が失敗した回と、トークン延長が失敗した回は、このリポジトリに Issue が立つ。
+
+### トークンの扱い
+
+Instagram / Threads のトークンは約60日で切れるが、`Refresh tokens` が毎週延長するので
+通常は何もしなくてよい（延長するたびに期限が60日先へ移る）。これが動くには、
+Secrets に **`GH_PAT`**（このリポジトリの Secrets への書き込み権限を持つ
+fine-grained personal access token）が必要。
+
+延長が2週続けて失敗したときだけ、手でトークンを取り直す:
+
+1. Meta のアプリ（Death Countdown Photos）→ ユースケース → InstagramログインによるAPI設定
+2. アカウント行の「トークンを生成」（@deathcountjp でログイン）
+3. `gh secret set IG_ACCESS_TOKEN -R keinobuoka/death-countdown-x-bot`
+
+Threads は Threads アプリ側で同じ手順。
+
+### ハッシュタグ
+
+Instagram は大・中・小の規模を混ぜて13個、日付で組み合わせを回している
+（毎日同じ並びはスパム判定を受けやすいため）。Threads はタグが1件しか効かないので1つだけ。
+語句は `social.py` の `IG_TAGS_*` / `TH_TAGS` にある。

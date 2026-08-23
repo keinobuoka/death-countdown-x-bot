@@ -1,0 +1,43 @@
+name: Refresh tokens
+
+# Instagram / Threads のトークンは約60日で失効する。毎週延ばしておけば
+# 人が発行しなおす必要がなくなる（延長のたびに期限が60日先へ移る）。
+on:
+  schedule:
+    - cron: '0 19 * * 0'   # 毎週月曜 04:00 JST
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh and store
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "GH_PAT が未設定です。Secrets を書き戻せません。" >&2
+            exit 1
+          fi
+          python3 refresh_tokens.py
+
+      - name: Report failure as an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create -R "${{ github.repository }}" \
+            --title "SNSトークンの自動更新が失敗しました（$(date -u -d '+9 hours' '+%Y-%m-%d')）" \
+            --body "Instagram / Threads のトークン延長に失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+放置すると失効日以降、投稿が止まります。トークンを手で発行しなおす手順は README を参照してください。"
