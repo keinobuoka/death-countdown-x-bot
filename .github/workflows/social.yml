@@ -76,8 +76,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          BODY=$(printf '%s\n\n%s\n' \
+            "自動投稿のジョブが失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            "トークン失効（Instagram / Threads は約60日）が最も多い原因です。週次の Refresh tokens が動いているかを確認してください。")
           gh issue create -R "${{ github.repository }}" \
             --title "SNS投稿が失敗しました（$(date -u -d '+9 hours' '+%Y-%m-%d') ${{ steps.mode.outputs.mode }}）" \
-            --body "自動投稿のジョブが失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-トークン失効（Instagram / Threads は約60日）が最も多い原因です。週次の Refresh tokens が動いているかを確認してください。"
+            --body "$BODY"

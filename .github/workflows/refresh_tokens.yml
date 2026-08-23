@@ -36,8 +36,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          BODY=$(printf '%s\n\n%s\n' \
+            "Instagram / Threads のトークン延長に失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            "放置すると失効日以降、投稿が止まります。手で取り直す手順は README を参照してください。")
           gh issue create -R "${{ github.repository }}" \
             --title "SNSトークンの自動更新が失敗しました（$(date -u -d '+9 hours' '+%Y-%m-%d')）" \
-            --body "Instagram / Threads のトークン延長に失敗しました。ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-放置すると失効日以降、投稿が止まります。トークンを手で発行しなおす手順は README を参照してください。"
+            --body "$BODY"
