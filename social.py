@@ -21,7 +21,8 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 STORE_URL = "https://play.google.com/store/apps/details?id=com.deathcountdown.app"
 # GitHub Pages に置いた当日のカード画像
 PAGES_BASE = os.environ.get("PAGES_BASE", "https://keinobuoka.github.io/death-countdown-x-bot")
-IG_API = "https://graph.facebook.com/v21.0"
+# Instagram ログイン方式（Facebookページを経由しない）のエンドポイント
+IG_API = "https://graph.instagram.com/v21.0"
 TH_API = "https://graph.threads.net/v1.0"
 
 
