@@ -72,6 +72,10 @@ def build(quote: dict, out_path: str) -> str:
     lines = _wrap(d, f"「{ja}」" if not quote.get("tip") else ja, f_quote, max_w)
     line_h = int(size * 1.65)
 
+    # Tips や問いかけは名言と紛れるので、見出しを立てる
+    label = quote.get("label") or ("今日のTips" if quote.get("tip") and quote.get("show_tip_label") else "")
+    f_label = _font(FONT_CANDIDATES, 26)
+
     en_lines: list[str] = []
     if quote.get("en") and not quote.get("ja_original") and not quote.get("tip") and len(lines) <= 3:
         en_lines = _wrap(d, quote["en"], f_en, max_w)[:2]
@@ -81,8 +85,18 @@ def build(quote: dict, out_path: str) -> str:
         t = f"（{quote['title_ja']}）" if quote.get("title_ja") else ""
         author = f"— {quote['author_ja']}{t}"
 
-    block_h = len(lines) * line_h + (len(en_lines) * 34 + 24 if en_lines else 0) + (54 if author else 0)
+    block_h = (
+        (58 if label else 0)
+        + len(lines) * line_h
+        + (len(en_lines) * 34 + 24 if en_lines else 0)
+        + (54 if author else 0)
+    )
     y = (H - block_h) // 2 - 20
+
+    if label:
+        lw = d.textlength(label, font=f_label)
+        d.text(((W - lw) / 2, y), label, font=f_label, fill="#7A7A7A")
+        y += 58
 
     for ln in lines:
         w = d.textlength(ln, font=f_quote)

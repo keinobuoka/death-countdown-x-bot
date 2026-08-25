@@ -82,10 +82,15 @@ def author_line(q: dict) -> str:
 
 
 # ---------------------------------------------------------------- 本文
+def bot_tip_label() -> str:
+    import bot
+    return bot.TIP_LABEL
+
+
 def build_morning(q: dict, platform: str, offset: int) -> str:
     year = datetime.datetime.now(JST).year
     head = f"{year}年も残り{days_left_of_year()}日。"
-    quote = q["ja"] if q.get("tip") else f"「{q['ja']}」"
+    quote = f"【{bot_tip_label()}】\n{q['ja']}" if q.get("tip") else f"「{q['ja']}」"
     body = f"{head}\n\n{quote}"
     al = author_line(q)
     if al:
@@ -94,32 +99,33 @@ def build_morning(q: dict, platform: str, offset: int) -> str:
     if platform == "instagram":
         return (
             f"{body}\n\n"
-            "あなたに残された日数は、プロフィールのアプリで数えられます。\n\n"
+            "あなたに残された日数は、プロフィールのアプリで数えられる。\n\n"
             f"{ig_hashtags(offset)}"
         )
-    return f"{body}\n\nあなたは今年、あと何日残っていると思っていましたか？\n\n{TH_TAGS[offset % len(TH_TAGS)]}"
+    return f"{body}\n\n今年はあと何日残っていると思っていましたか。\n\n{TH_TAGS[offset % len(TH_TAGS)]}"
 
 
-def evening_source(data: dict, offset: int) -> tuple[str, str]:
-    """(カードに載せる文, 投稿の締め) を返す。"""
+def evening_source(data: dict, offset: int) -> tuple[str, str, str]:
+    """(カードに載せる文, 投稿の締め, ラベル) を返す。ラベルが空なら見出しなし。"""
     import bot
 
     now = datetime.datetime.now(JST)
     if now.weekday() in (1, 4):          # 火・金は問いかけ（コメントを取りにいく）
         text = bot.QUESTIONS[offset % len(bot.QUESTIONS)]
-        return text, "あなたの答えをコメントで教えてください。"
+        return text, "あなたの答えをコメントで。", ""
     if now.weekday() == 6:               # 日曜はアプリ紹介
-        text = bot.PROMO_BODIES[offset % len(bot.PROMO_BODIES)].replace("\n", " ")
-        return text, "アプリはプロフィールのリンクから（無料・広告なし）。"
+        text = bot.PROMO_BODIES[offset % len(bot.PROMO_BODIES)]
+        return text, "アプリはプロフィールのリンクから。", ""
     tips = data["tips"]                  # 平日はTips
     tip = tips[offset % len(tips)]
-    return tip["ja"], bot.TIP_CLOSERS[offset % len(bot.TIP_CLOSERS)]
+    return tip["ja"], bot.TIP_CLOSERS[offset % len(bot.TIP_CLOSERS)], bot.TIP_LABEL
 
 
 def build_evening(data: dict, platform: str, offset: int) -> tuple[str, dict]:
-    text, closer = evening_source(data, offset)
-    card_quote = {"ja": text, "tip": True, "author_ja": "", "title_ja": "", "en": ""}
-    body = f"{text}\n\n{closer}"
+    text, closer, label = evening_source(data, offset)
+    card_quote = {"ja": text, "tip": True, "author_ja": "", "title_ja": "", "en": "", "label": label}
+    head = f"【{label}】\n" if label else ""
+    body = f"{head}{text}\n\n{closer}"
     if platform == "instagram":
         return f"{body}\n\n{ig_hashtags(offset + 5)}", card_quote
     return f"{body}\n\n{TH_TAGS[(offset + 3) % len(TH_TAGS)]}", card_quote

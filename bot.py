@@ -81,7 +81,7 @@ def build_morning(data) -> str:
     year = datetime.datetime.now(JST).year
     hook = f"{year}年も残り{days_left_of_year()}日。"
     lines = [hook, ""]
-    lines.append(f"「{q['ja']}」" if not q["tip"] else q["ja"])
+    lines.append(f"【{TIP_LABEL}】\n{q['ja']}" if q["tip"] else f"「{q['ja']}」")
     al = author_line(q)
     if al:
         lines.append(al)
@@ -93,27 +93,29 @@ def build_morning(data) -> str:
     return body
 
 
+TIP_LABEL = "今日のTips"
+
 TIP_CLOSERS = [
-    "ホーム画面に残り日数を置くと、毎日が少し変わる。",
-    "あなたに残された日数、数えたことはありますか。",
-    "時間は最も公平な資源。全員に1日24時間。",
+    "ホーム画面に残り日数があると、一日の見え方が少し変わる。",
+    "自分に残された日数は、数えれば分かる。",
+    "時間は最も公平な資源。全員に一日24時間。",
 ]
 
 # 反応を取りにいく問いかけ型（リプライが付くとタイムラインに乗りやすい）
 QUESTIONS = [
-    "もし残りの人生が1000日だと分かったら、明日いちばんにやることは何ですか。",
-    "80年を日数にすると約29,200日。あなたはいま何日目でしょうか。",
+    "残りの人生が1000日だと分かったら、明日いちばんにやることは何ですか。",
+    "80年を日数にすると約29,200日。あなたはいま何日目ですか。",
     "今日が人生最後の日だとしたら、今日の予定を変えますか。",
-    "10年後の自分から見て、今日という日は「何をしていた日」ですか。",
-    "1日は86,400秒。今日、意図して使った秒はどれくらいありますか。",
-    "やらないまま10年経ったことを、ひとつだけ挙げるとしたら何ですか。",
-    "あなたが今週いちばん時間を使ったことは、来年も覚えていますか。",
+    "10年後の自分から見て、今日は何をしていた日ですか。",
+    "1日は86,400秒。今日、意図して使えた秒はどれくらいですか。",
+    "やらないまま10年が過ぎたこと。ひとつ挙げるとしたら何ですか。",
+    "今週いちばん時間を使ったこと。来年も覚えていますか。",
 ]
 
 PROMO_BODIES = [
-    "人生の残り日数を、ホーム画面のウィジェットで毎日。\n偉人の名言（出典検証済み）が日替わりで届きます。",
-    "生年月日を入れるだけで、残り時間が「日数」で見える。\n完全無料・広告なし・オフライン。",
-    "「ウィジェットが、本体。」\n残り日数・残り時間・経過率・今日の名言をホーム画面に常時表示。",
+    "人生の残り日数を、ホーム画面のウィジェットに。\n出典を確かめた偉人の名言が、日替わりで一つ。",
+    "生年月日を入れるだけ。残り時間が日数で見える。\n無料、広告なし、通信もなし。",
+    "ウィジェットが本体。\n残り日数、残り時間、経過率、今日の名言。\nホーム画面に置いたまま。",
 ]
 
 
@@ -131,12 +133,12 @@ def build_evening(data) -> str:
     if now.toordinal() % 2 == 0:
         # 偶数日: アプリ紹介(リンクなし・プロフィールへ誘導)
         body = PROMO_BODIES[daily_index(len(PROMO_BODIES))]
-        return f"{body}\n\n📱 アプリはプロフィールのリンクから\n\n#メメントモリ #死ぬまでカウントダウン"
+        return f"{body}\n\nアプリはプロフィールのリンクから\n\n#メメントモリ #死ぬまでカウントダウン"
     # 奇数日: Tips
     tips = data["tips"]
     tip = tips[daily_index(len(tips), offset=3)]
     closer = TIP_CLOSERS[daily_index(len(TIP_CLOSERS), offset=1)]
-    return f"{tip['ja']}\n\n{closer}\n\n#メメントモリ"
+    return f"【{TIP_LABEL}】\n{tip['ja']}\n\n{closer}\n\n#メメントモリ"
 
 
 def post(text: str, image_path: str | None = None):
@@ -175,7 +177,10 @@ def main():
     if mode == "morning":
         try:
             import card
-            image_path = card.build(today_quote(data), "/tmp/quote_card.png")
+            q = dict(today_quote(data))
+            if q.get("tip"):
+                q["label"] = TIP_LABEL
+            image_path = card.build(q, "/tmp/quote_card.png")
         except Exception as e:  # noqa: BLE001
             print("card generation failed:", e)
 

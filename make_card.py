@@ -21,7 +21,9 @@ def main() -> None:
     stamp = datetime.datetime.now(JST).strftime("%Y%m%d")
 
     if mode == "morning":
-        q = bot.today_quote(data)
+        q = dict(bot.today_quote(data))
+        if q.get("tip"):
+            q["label"] = bot.TIP_LABEL
         path = f"cards/{stamp}.png"
     else:
         _, q = social.build_evening(data, "instagram", offset)

@@ -1,1086 +1,1086 @@
 {
- "quotes": [
-  {
-   "ja": "自分はいつか死ぬ。それを思い出すことが、失うものなど何もないと気づく最良の方法だ。",
-   "author_ja": "スティーブ・ジョブズ",
-   "en": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.",
-   "author_en": "Steve Jobs",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "あなたの時間は限られている。他人の人生を生きて無駄にするな。",
-   "author_ja": "スティーブ・ジョブズ",
-   "en": "Your time is limited, so don't waste it living someone else's life.",
-   "author_en": "Steve Jobs",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "もし今日が人生最後の日だとしたら、今日やろうとしていることをやりたいか？",
-   "author_ja": "スティーブ・ジョブズ",
-   "en": "If today were the last day of my life, would I want to do what I am about to do today?",
-   "author_en": "Steve Jobs",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "充実した一日が安らかな眠りをもたらすように、充実した人生は安らかな死をもたらす。",
-   "author_ja": "レオナルド・ダ・ヴィンチ",
-   "en": "As a well-spent day brings happy sleep, so a life well used brings happy death.",
-   "author_en": "Leonardo da Vinci",
-   "title_ja": "芸術家",
-   "title_en": "Artist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "人生が短いのではない。我々がそれを短くしているのだ。",
-   "author_ja": "セネカ",
-   "en": "It is not that we have a short time to live, but that we waste a lot of it.",
-   "author_en": "Seneca",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "明日を必要としない者ほど、喜んで明日を迎えられる。",
-   "author_ja": "エピクロス",
-   "en": "He who least needs tomorrow will most gladly greet tomorrow.",
-   "author_en": "Epicurus",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死も苦痛も、恐れるに足りない。恐れるべきは、それを恐れる心だ。",
-   "author_ja": "エピクテトス",
-   "en": "It is not death or pain that is to be feared, but the fear of pain or death.",
-   "author_en": "Epictetus",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "明日死ぬかのように生きよ。永遠に生きるかのように学べ。",
-   "author_ja": "ガンジー（伝）",
-   "en": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
-   "author_en": "Attributed to Gandhi",
-   "title_ja": "独立運動家",
-   "title_en": "Independence leader",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死は生の対極としてではなく、その一部として存在している。",
-   "author_ja": "村上春樹『ノルウェイの森』",
-   "en": "Death is not the opposite of life, but a part of it.",
-   "author_en": "Haruki Murakami, Norwegian Wood",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "ひとりの人間の死とともに、未知の世界がひとつ失われる。",
-   "author_ja": "サン＝テグジュペリ",
-   "en": "With the death of each person, an unknown world is lost.",
-   "author_en": "Antoine de Saint-Exupéry",
-   "title_ja": "作家",
-   "title_en": "Writer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "生まれ変わり続けていない者は、死に続けている。",
-   "author_ja": "ボブ・ディラン",
-   "en": "He not busy being born is busy dying.",
-   "author_en": "Bob Dylan",
-   "title_ja": "ミュージシャン",
-   "title_en": "Musician",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "生きるとは、この世でもっとも稀なこと。たいていの人は、ただ存在しているだけだ。",
-   "author_ja": "オスカー・ワイルド",
-   "en": "To live is the rarest thing in the world. Most people exist, that is all.",
-   "author_en": "Oscar Wilde",
-   "title_ja": "作家",
-   "title_en": "Writer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "退屈で死ぬより、情熱のために死にたい。",
-   "author_ja": "エミール・ゾラ『ボヌール・デ・ダム百貨店』",
-   "en": "I would rather die of passion than of boredom.",
-   "author_en": "Émile Zola, Au Bonheur des Dames",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死して不朽の見込みあらばいつでも死ぬべし。生きて大業の見込みあらばいつでも生くべし。",
-   "author_ja": "吉田松陰",
-   "en": "If dying will make you immortal, die anytime. If living will achieve great work, live on.",
-   "author_en": "Yoshida Shōin",
-   "title_ja": "思想家",
-   "title_en": "Philosopher",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "一度だけの人生だ。だから今この時だけを考えろ。過去は及ばず、未来は知れず。",
-   "author_ja": "中村天風",
-   "en": "You live only once. Think only of this moment — the past is gone, the future unknown.",
-   "author_en": "Tempu Nakamura",
-   "title_ja": "思想家",
-   "title_en": "Philosopher",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人生を愛するなら、時間を浪費するな。人生は、時間でできているのだから。",
-   "author_ja": "ベンジャミン・フランクリン",
-   "en": "Dost thou love life? Then do not squander time, for that is the stuff life is made of.",
-   "author_en": "Benjamin Franklin",
-   "title_ja": "政治家",
-   "title_en": "Statesman",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "人はみな死ぬ。だが、みなが本当に生きるわけではない。",
-   "author_ja": "映画『ブレイブハート』",
-   "en": "Every man dies. Not every man really lives.",
-   "author_en": "Braveheart (film)",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死とは、隣の部屋へ移ることにすぎない。しかもその部屋では、私の目は見えるのだ。",
-   "author_ja": "ヘレン・ケラー",
-   "en": "Death is no more than passing from one room into another. But in that other room I shall be able to see.",
-   "author_en": "Helen Keller",
-   "title_ja": "社会福祉活動家",
-   "title_en": "Author",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "傷跡ひとつないまま、死にたくはない。",
-   "author_ja": "チャック・パラニューク『ファイト・クラブ』",
-   "en": "I don't want to die without any scars.",
-   "author_en": "Chuck Palahniuk, Fight Club",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "生きるべきか、死ぬべきか、それが問題だ。",
-   "author_ja": "シェイクスピア『ハムレット』",
-   "en": "To be, or not to be, that is the question.",
-   "author_en": "Shakespeare, Hamlet",
-   "title_ja": "劇作家",
-   "title_en": "Playwright",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "大切なのは、ただ生きることではなく、善く生きることだ。",
-   "author_ja": "ソクラテス（プラトン『クリトン』）",
-   "en": "The most important thing is not life, but the good life.",
-   "author_en": "Socrates (Plato, Crito)",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "深く生きる者に、死の恐れはない。",
-   "author_ja": "アナイス・ニン",
-   "en": "People living deeply have no fear of death.",
-   "author_en": "Anaïs Nin",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "おもしろきこともなき世をおもしろく。",
-   "author_ja": "高杉晋作",
-   "en": "Make this uninteresting world interesting.",
-   "author_en": "Takasugi Shinsaku",
-   "title_ja": "幕末の志士",
-   "title_en": "Samurai",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人間五十年、下天の内をくらぶれば、夢幻のごとくなり。",
-   "author_ja": "幸若舞『敦盛』",
-   "en": "Fifty years of a human life — compared to the heavens, it is but a dream and an illusion.",
-   "author_en": "Atsumori",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "露と落ち露と消えにしわが身かな。なにはのことも夢のまた夢。",
-   "author_ja": "豊臣秀吉",
-   "en": "I came like dew and vanish like dew. All of it — a dream within a dream.",
-   "author_en": "Toyotomi Hideyoshi",
-   "title_ja": "戦国武将",
-   "title_en": "Samurai warlord",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人の一生は、重荷を負うて遠き道をゆくがごとし。急ぐべからず。",
-   "author_ja": "『東照公御遺訓』（伝・徳川家康）",
-   "en": "Life is like walking a long road with a heavy burden. Do not hurry.",
-   "author_en": "Attributed to Tokugawa Ieyasu",
-   "title_ja": "江戸幕府初代将軍",
-   "title_en": "Shogun",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人生の意味とは、それが終わるということだ。",
-   "author_ja": "カフカ（伝）",
-   "en": "The meaning of life is that it ends.",
-   "author_en": "Attributed to Franz Kafka",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死者は、生きている者の記憶のなかで生きつづける。",
-   "author_ja": "キケロ",
-   "en": "The dead live on in the memory of the living.",
-   "author_en": "Cicero",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "火星で死にたい。ただし、墜落してではなく。",
-   "author_ja": "イーロン・マスク",
-   "en": "I would like to die on Mars. Just not on impact.",
-   "author_en": "Elon Musk",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死んでいないことは、生きていることではない。",
-   "author_ja": "E・E・カミングス",
-   "en": "Unbeing dead isn't being alive.",
-   "author_en": "E. E. Cummings",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "錆びつくより、擦り切れるほうがいい。",
-   "author_ja": "英語の格言（土光敏夫の座右の銘）",
-   "en": "Better to wear out than to rust out.",
-   "author_en": "English proverb",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "80歳になって悔やむのは、やったことではない。やらなかったことだ。",
-   "author_ja": "ジェフ・ベゾス",
-   "en": "At 80, you'll regret the things you didn't do, not the things you did.",
-   "author_en": "Jeff Bezos",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "時間こそ最も希少な資源である。それを管理できなければ、何ひとつ管理できない。",
-   "author_ja": "ピーター・ドラッカー",
-   "en": "Time is the scarcest resource, and unless it is managed, nothing else can be managed.",
-   "author_en": "Peter Drucker",
-   "title_ja": "経営学者",
-   "title_en": "Management thinker",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "我、事において後悔せず。",
-   "author_ja": "宮本武蔵",
-   "en": "I regret nothing I have done.",
-   "author_en": "Miyamoto Musashi",
-   "title_ja": "剣豪",
-   "title_en": "Swordsman",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "恐れるべきは死ではない。一度も本当に生きないことだ。",
-   "author_ja": "マルクス・アウレリウス",
-   "en": "Do not fear death; fear never beginning to truly live.",
-   "author_en": "Marcus Aurelius",
-   "title_ja": "ローマ皇帝",
-   "title_en": "Roman Emperor",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "世の人は我を何とも言わば言え。我が成す事は我のみぞ知る。",
-   "author_ja": "坂本龍馬",
-   "en": "Let the world say what it will of me. Only I know what I am to accomplish.",
-   "author_en": "Sakamoto Ryōma",
-   "title_ja": "幕末の志士",
-   "title_en": "Samurai",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人生は自転車のようなものだ。倒れないためには、走りつづけるしかない。",
-   "author_ja": "アインシュタイン",
-   "en": "Life is like riding a bicycle. To keep your balance you must keep moving.",
-   "author_en": "Albert Einstein",
-   "title_ja": "物理学者",
-   "title_en": "Physicist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "危険だ、という道は必ず、自分の行きたい道なのだ。",
-   "author_ja": "岡本太郎",
-   "en": "The path that feels dangerous is always the path you truly want to take.",
-   "author_en": "Tarō Okamoto",
-   "title_ja": "芸術家",
-   "title_en": "Artist",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "あと十年生きたいが……せめてあと五年の命があったら、ほんとうの絵師になれるのだが。",
-   "author_ja": "葛飾北斎",
-   "en": "If heaven had granted me five more years, I could have become a real painter.",
-   "author_en": "Katsushika Hokusai",
-   "title_ja": "浮世絵師",
-   "title_en": "Ukiyo-e artist",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "この世は美しい。戦う価値がある。",
-   "author_ja": "ヘミングウェイ『誰がために鐘は鳴る』",
-   "en": "The world is a fine place and worth fighting for.",
-   "author_en": "Ernest Hemingway, For Whom the Bell Tolls",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "万策尽きたと思うな。自ら断崖絶壁の淵にたて。その時はじめて新たなる風は必ず吹く。",
-   "author_ja": "松下幸之助",
-   "en": "Never think all is lost. Stand at the very edge of the cliff — only then will a new wind surely blow.",
-   "author_en": "Kōnosuke Matsushita",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人生とは、あれこれ計画を立てているうちに過ぎてゆくもの。",
-   "author_ja": "アレン・ソーンダース",
-   "en": "Life is what happens to you while you're busy making other plans.",
-   "author_en": "Allen Saunders",
-   "title_ja": "漫画原作者",
-   "title_en": "Comic strip writer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "整った心にとって、死は次の大いなる冒険にすぎない。",
-   "author_ja": "アルバス・ダンブルドア（小説『ハリー・ポッター』）",
-   "en": "To the well-organized mind, death is but the next great adventure.",
-   "author_en": "Albus Dumbledore (Harry Potter)",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "さよならをいうのは、少し死ぬことだ。",
-   "author_ja": "レイモンド・チャンドラー『長いお別れ』",
-   "en": "To say goodbye is to die a little.",
-   "author_en": "Raymond Chandler, The Long Goodbye",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "ただちに生き始めよ。一日一日を、それぞれひとつの人生として数えよ。",
-   "author_ja": "セネカ",
-   "en": "Begin at once to live, and count each separate day as a separate life.",
-   "author_en": "Seneca",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "一万年も生きるかのように振る舞うな。死はすぐそばにある。生きているあいだに、許されているあいだに、善き人であれ。",
-   "author_ja": "マルクス・アウレリウス",
-   "en": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good.",
-   "author_en": "Marcus Aurelius",
-   "title_ja": "ローマ皇帝",
-   "title_en": "Roman Emperor",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "一日一日を、最後の日であるかのように過ごすこと。取り乱さず、怠けず、偽らず。それが人格の完成である。",
-   "author_ja": "マルクス・アウレリウス",
-   "en": "Perfection of character is this: to live each day as if it were your last, without frenzy, without apathy, without pretence.",
-   "author_en": "Marcus Aurelius",
-   "title_ja": "ローマ皇帝",
-   "title_en": "Roman Emperor",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死を日々、目の前に置いておけ。卑しい考えを抱くことも、何かを欲しがりすぎることもなくなる。",
-   "author_ja": "エピクテトス",
-   "en": "Keep death before your eyes every day, and you will never entertain any abject thought, nor too eagerly covet anything.",
-   "author_en": "Epictetus",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "その日を摘め。明日をあてにするのは、できるかぎり少なく。",
-   "author_ja": "ホラティウス",
-   "en": "Seize the day, trusting as little as possible in tomorrow. (Carpe diem, quam minimum credula postero.)",
-   "author_en": "Horace",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "人は一度しか生まれない。なのにあなたは、明日の主でもないのに喜びを先送りする。人生はためらいのうちに過ぎてゆく。",
-   "author_ja": "エピクロス",
-   "en": "We are born once and cannot be born twice. You, though not master of tomorrow, postpone your happiness. Life is wasted in procrastination.",
-   "author_en": "Epicurus",
-   "title_ja": "哲学者",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "天が下のすべての事には季節があり、すべての業には時がある。",
-   "author_ja": "旧約聖書「伝道の書」",
-   "en": "To every thing there is a season, and a time to every purpose under the heaven.",
-   "author_en": "Ecclesiastes (Old Testament)",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "生涯の日を正しく数えることを教えてください。知恵ある心を得ることができますように。",
-   "author_ja": "旧約聖書「詩編」",
-   "en": "Teach us to number our days, that we may gain a heart of wisdom.",
-   "author_en": "Psalms (Old Testament)",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "ただ、今日なすべきことを熱心になせ。誰が明日の死を知ろう。",
-   "author_ja": "ブッダ",
-   "en": "Today the effort must be made; tomorrow Death may come, who knows?",
-   "author_en": "The Buddha",
-   "title_ja": "仏教開祖",
-   "title_en": "Founder of Buddhism",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "励みは不死の道、怠りは死の道。励む人は、死ぬことがない。",
-   "author_ja": "ブッダ",
-   "en": "Heedfulness is the path to the deathless; heedlessness is the path to death. The heedful do not die.",
-   "author_en": "The Buddha",
-   "title_ja": "仏教開祖",
-   "title_en": "Founder of Buddhism",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "一期一会。今日のこの出会いは、生涯にただ一度の会である。",
-   "author_ja": "井伊直弼(源流は千利休)",
-   "en": "Ichi-go ichi-e: this very encounter comes but once in a lifetime.",
-   "author_en": "Ii Naosuke (after Sen no Rikyū)",
-   "title_ja": "幕末の大老",
-   "title_en": "Edo statesman",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "日日是好日。来る日も来る日も、かけがえのない良き日である。",
-   "author_ja": "雲門文偃",
-   "en": "Every day is a good day. (Nichi nichi kore kōjitsu)",
-   "author_en": "Yunmen Wenyan",
-   "title_ja": "禅僧",
-   "title_en": "Zen master",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "生死事大、無常迅速。光陰惜しむべし、時は人を待たず。",
-   "author_ja": "禅林の偈(永嘉玄覚の語に由来)",
-   "en": "Great is the matter of birth and death; impermanence is swift. Cherish each moment, for time waits for no one.",
-   "author_en": "Zen verse (after Yongjia Xuanjue)",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "朝に道を聞かば、夕べに死すとも可なり。",
-   "author_ja": "孔子",
-   "en": "If a man in the morning hears the Way, he may die in the evening without regret.",
-   "author_en": "Confucius",
-   "title_ja": "思想家",
-   "title_en": "Philosopher",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "旅に病んで夢は枯野をかけ廻る",
-   "author_ja": "松尾芭蕉",
-   "en": "Sick on a journey, my dreams wander the withered fields.",
-   "author_en": "Matsuo Basho",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "月日は百代の過客にして、行きかふ年もまた旅人なり",
-   "author_ja": "松尾芭蕉",
-   "en": "The months and days are the travelers of eternity, and the years that come and go are travelers too.",
-   "author_en": "Matsuo Basho",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "うらを見せおもてを見せて散るもみぢ",
-   "author_ja": "良寛",
-   "en": "Showing its back, and showing its front, a maple leaf falls.",
-   "author_en": "Ryokan",
-   "title_ja": "禅僧",
-   "title_en": "Zen monk",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "悟りということは、いかなる場合にも平気で死ぬることかと思っていたのは間違いで、悟りということは、いかなる場合にも平気で生きていることであった",
-   "author_ja": "正岡子規",
-   "en": "I used to think enlightenment meant being able to die calmly in any circumstance. I was wrong — it means living calmly in any circumstance.",
-   "author_en": "Masaoka Shiki",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "糸瓜咲て痰のつまりし仏かな",
-   "author_ja": "正岡子規",
-   "en": "The loofah has bloomed — and here lies a Buddha, choked with phlegm.",
-   "author_en": "Masaoka Shiki",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "生死の中の雪ふりしきる",
-   "author_ja": "種田山頭火",
-   "en": "Amid life and death, the snow falls and keeps falling.",
-   "author_en": "Taneda Santoka",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "幾度同じ主客交はるとも、今日の会に再び返らざることを思へば、実にわが一世一度の会なり",
-   "author_ja": "井伊直弼",
-   "en": "However many times host and guest may meet again, today's gathering will never return — truly, it is the one meeting of a lifetime.",
-   "author_en": "Ii Naosuke",
-   "title_ja": "幕末の大老",
-   "title_en": "Edo statesman",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "曇りなき心の月を先立てて浮世の闇を照らしてぞ行く",
-   "author_ja": "伊達政宗",
-   "en": "With the unclouded moon of my heart to light the way, I go forth through the darkness of this fleeting world.",
-   "author_en": "Date Masamune",
-   "title_ja": "戦国武将",
-   "title_en": "Samurai warlord",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "身はたとひ武蔵の野辺に朽ちぬとも留め置かまし大和魂",
-   "author_ja": "吉田松陰",
-   "en": "Though my body may rot in the fields of Musashi, I leave behind my undying spirit.",
-   "author_en": "Yoshida Shoin",
-   "title_ja": "思想家",
-   "title_en": "Thinker",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "露の世は露の世ながらさりながら",
-   "author_ja": "小林一茶",
-   "en": "This dewdrop world is a dewdrop world — and yet, and yet.",
-   "author_en": "Kobayashi Issa",
-   "title_ja": "俳人",
-   "title_en": "Haiku poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "人、死を憎まば、生を愛すべし。存命の喜び、日々に楽しまざらんや",
-   "author_ja": "兼好法師",
-   "en": "If you hate death, then love life. Why not delight, day after day, in the joy of simply being alive?",
-   "author_en": "Yoshida Kenko",
-   "title_ja": "随筆家",
-   "title_en": "Essayist",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "ゆく河の流れは絶えずして、しかももとの水にあらず",
-   "author_ja": "鴨長明",
-   "en": "The river flows on without pause, and yet its waters are never the same.",
-   "author_en": "Kamo no Chomei",
-   "title_ja": "随筆家",
-   "title_en": "Essayist",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "つひにゆく道とはかねて聞きしかど昨日今日とは思はざりしを",
-   "author_ja": "在原業平",
-   "en": "That this is the road we all must travel in the end, I had long heard — yet I never dreamed it would be yesterday, or today.",
-   "author_en": "Ariwara no Narihira",
-   "title_ja": "歌人",
-   "title_en": "Waka poet",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "大切な時はただ一つ、「今」だ。私たちの思いのままになるのは、いまこの時だけなのだから。",
-   "author_ja": "レフ・トルストイ",
-   "en": "There is only one time that is important—Now! It is the most important time because it is the only time when we have any power.",
-   "author_en": "Leo Tolstoy",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "真冬のただなかで、私はついに知った。自分の中に、負けることのない夏があるのだと。",
-   "author_ja": "アルベール・カミュ",
-   "en": "In the midst of winter, I found there was, within me, an invincible summer.",
-   "author_en": "Albert Camus",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "自由はただひとつ。死と折り合いをつけることだ。そのあとには、すべてが可能になる。",
-   "author_ja": "アルベール・カミュ",
-   "en": "There is but one freedom, to put oneself right with death. After that, everything is possible.",
-   "author_en": "Albert Camus",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "あらゆる別れに先立って生きよ。それがもう過ぎ去ったあとであるかのように——いま去りゆく冬のように。",
-   "author_ja": "ライナー・マリア・リルケ",
-   "en": "Be ahead of all parting, as though it already were behind you, like the winter that has just gone by.",
-   "author_en": "Rainer Maria Rilke",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "時間は、私をかたちづくる素材だ。時間は私を押し流す川だが、その川こそが私なのだ。",
-   "author_ja": "ホルヘ・ルイス・ボルヘス",
-   "en": "Time is the substance I am made of. Time is a river which sweeps me along, but I am the river.",
-   "author_en": "Jorge Luis Borges",
-   "title_ja": "作家",
-   "title_en": "Writer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "まるで、永遠を傷つけずに時間をつぶせるとでもいうように。",
-   "author_ja": "ヘンリー・デイヴィッド・ソロー",
-   "en": "As if you could kill time without injuring eternity.",
-   "author_en": "Henry David Thoreau",
-   "title_ja": "思想家",
-   "title_en": "Philosopher",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "人からすべてを奪うことはできても、最後の自由だけは奪えない。どんな状況でも、自分のあり方を選ぶ自由だ。",
-   "author_ja": "ヴィクトール・フランクル",
-   "en": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances.",
-   "author_en": "Viktor E. Frankl",
-   "title_ja": "精神科医",
-   "title_en": "Psychiatrist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "二度と戻らない。だからこそ、人生はこんなにも愛おしい。",
-   "author_ja": "エミリー・ディキンソン",
-   "en": "That it will never come again / Is what makes life so sweet.",
-   "author_en": "Emily Dickinson",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "物理学を信じる私たちは知っている。過去・現在・未来の区別など、どこまでも頑固な幻想にすぎないことを。",
-   "author_ja": "アルベルト・アインシュタイン",
-   "en": "People like us, who believe in physics, know that the distinction between past, present and future is only a stubbornly persistent illusion.",
-   "author_en": "Albert Einstein",
-   "title_ja": "物理学者",
-   "title_en": "Physicist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "私たちのようにちっぽけな生き物が、この宇宙の広大さに耐えられるのは、愛があるからだ。",
-   "author_ja": "カール・セーガン",
-   "en": "For small creatures such as we the vastness is bearable only through love.",
-   "author_en": "Carl Sagan",
-   "title_ja": "天文学者",
-   "title_en": "Astronomer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "教えてほしい。たった一度きりの、野性のままの、かけがえのないその人生を、あなたはどう生きるのか。",
-   "author_ja": "メアリー・オリヴァー",
-   "en": "Tell me, what is it you plan to do with your one wild and precious life?",
-   "author_en": "Mary Oliver",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "蝶は月日ではなく、瞬間を数える。だから蝶には、時間がじゅうぶんにある。",
-   "author_ja": "ラビンドラナート・タゴール",
-   "en": "The butterfly counts not months but moments, and has time enough.",
-   "author_en": "Rabindranath Tagore",
-   "title_ja": "詩人",
-   "title_en": "Poet",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "あらゆる始まりには魔法が宿っている。その魔法が私たちを守り、生きる力をくれる。",
-   "author_ja": "ヘルマン・ヘッセ",
-   "en": "And in each beginning dwells a magic, protecting us and helping us to live.",
-   "author_en": "Hermann Hesse",
-   "title_ja": "作家",
-   "title_en": "Novelist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "人生はクローズアップで見れば悲劇だが、ロングショットで見れば喜劇だ。",
-   "author_ja": "チャールズ・チャップリン",
-   "en": "Life is a tragedy when seen in close-up, but a comedy in long-shot.",
-   "author_en": "Charlie Chaplin",
-   "title_ja": "喜劇王",
-   "title_en": "Comedian",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "死ぬのは怖くない。ただ、急いで死ぬ気もない。その前に、やりたいことが山ほどあるのだから。",
-   "author_ja": "スティーヴン・ホーキング",
-   "en": "I'm not afraid of death, but I'm in no hurry to die. I have so much I want to do first.",
-   "author_en": "Stephen Hawking",
-   "title_ja": "物理学者",
-   "title_en": "Physicist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "足元ではなく、星を見上げよう。目に映るものの意味を考え、宇宙がなぜ在るのかに驚こう。好奇心を忘れずに。",
-   "author_ja": "スティーヴン・ホーキング",
-   "en": "Look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.",
-   "author_en": "Stephen Hawking",
-   "title_ja": "物理学者",
-   "title_en": "Physicist",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "時間こそ、あなたの持ちもののすべて。そしていつか、思っていたより残り少ないと気づく日が来る。",
-   "author_ja": "ランディ・パウシュ",
-   "en": "Time is all you have. And you may find one day that you have less than you think.",
-   "author_en": "Randy Pausch",
-   "title_ja": "大学教授",
-   "title_en": "Professor",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "がんは私の身体の自由を奪える。だが、私の知性には触れられない。心にも、魂にも、決して触れられない。",
-   "author_ja": "ジム・ヴァルヴァーノ",
-   "en": "Cancer can take away all of my physical abilities. It cannot touch my mind, it cannot touch my heart, and it cannot touch my soul.",
-   "author_en": "Jim Valvano",
-   "title_ja": "バスケットボール指導者",
-   "title_en": "Basketball coach",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "50歳になっても20歳の頃と同じ目で世界を見ている人は、人生の30年を無駄にしたことになる。",
-   "author_ja": "モハメド・アリ",
-   "en": "The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life.",
-   "author_en": "Muhammad Ali",
-   "title_ja": "ボクサー",
-   "title_en": "Boxer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "結局のところ、人は自らの選択でできている。自分の物語を、誇れるものにしなさい。",
-   "author_ja": "ジェフ・ベゾス",
-   "en": "In the end, we are our choices. Build yourself a great story.",
-   "author_en": "Jeff Bezos",
-   "title_ja": "実業家",
-   "title_en": "Entrepreneur",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "俺の人生に意味があるのは、多くの人を助けられるときだけだ。",
-   "author_ja": "ボブ・マーリー",
-   "en": "My life is only important if me can help plenty people.",
-   "author_en": "Bob Marley",
-   "title_ja": "レゲエ歌手",
-   "title_en": "Reggae musician",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "早起きして、懸命に打ち込んだあの時間。あれこそが実は、夢そのものなんだ。目的地ではなく、旅こそが。",
-   "author_ja": "コービー・ブライアント",
-   "en": "Those times you get up early and you work hard... that is actually the dream. It's not the destination, it's the journey.",
-   "author_en": "Kobe Bryant",
-   "title_ja": "バスケットボール選手",
-   "title_en": "Basketball player",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "体は神殿ではなく、遊園地だ。この乗り物を、思いきり楽しめばいい。",
-   "author_ja": "アンソニー・ボーデイン",
-   "en": "Your body is not a temple, it's an amusement park. Enjoy the ride.",
-   "author_en": "Anthony Bourdain",
-   "title_ja": "料理人",
-   "title_en": "Chef",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "この先どこへ向かうかは分からない。ただ、退屈にはならない。それだけは約束する。",
-   "author_ja": "デヴィッド・ボウイ",
-   "en": "I don't know where I'm going from here, but I promise it won't be boring.",
-   "author_en": "David Bowie",
-   "title_ja": "ロック歌手",
-   "title_en": "Rock musician",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "僕はもう人生を丸ごと生き切った。だから明日死んだって、少しもかまわないんだ。",
-   "author_ja": "フレディ・マーキュリー",
-   "en": "As far as I'm concerned, I've lived a full life and if I'm dead tomorrow, I don't give a damn.",
-   "author_en": "Freddie Mercury",
-   "title_ja": "ロック歌手",
-   "title_en": "Rock singer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "幸せになると決めるのを、人生がつらくなくなる日まで待っていてはいけないの。",
-   "author_ja": "ナイトバード（ジェーン・マルチェフスキ）",
-   "en": "You can't wait until life isn't hard anymore before you decide to be happy.",
-   "author_en": "Nightbirde (Jane Marczewski)",
-   "title_ja": "歌手",
-   "title_en": "Singer",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "たとえ死にゆく身であっても、実際に死ぬその瞬間までは、私はまだ生きている。",
-   "author_ja": "ポール・カラニシ",
-   "en": "Even if I'm dying, until I actually die, I am still living.",
-   "author_en": "Paul Kalanithi",
-   "title_ja": "脳神経外科医",
-   "title_en": "Neurosurgeon",
-   "ja_original": false,
-   "tip": false
-  },
-  {
-   "ja": "おごらず、人と比べず、面白がって、平気に生きればいい。",
-   "author_ja": "樹木希林",
-   "en": "Don't be proud. Don't compare yourself to others. Find the fun in things, and live with an easy heart.",
-   "author_en": "Kirin Kiki",
-   "title_ja": "女優",
-   "title_en": "Actress",
-   "ja_original": true,
-   "tip": false
-  },
-  {
-   "ja": "キャリアではなく、目的を見つけなさい。目的こそが、あなたという人間の核をなすものだから。",
-   "author_ja": "チャドウィック・ボーズマン",
-   "en": "You would rather find purpose than a career. Purpose is an essential element of you that crosses disciplines.",
-   "author_en": "Chadwick Boseman",
-   "title_ja": "俳優",
-   "title_en": "Actor",
-   "ja_original": false,
-   "tip": false
-  }
- ],
- "tips": [
-  {
-   "ja": "辛いことがあったかもしれません。でも大丈夫、人はみんな死んでしまうのです。",
-   "author_ja": "",
-   "en": "Something painful may have happened today. It's okay — everyone dies in the end.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "今日の悩みは、10年後にはきっと思い出せません。",
-   "author_ja": "",
-   "en": "Ten years from now, you probably won't even remember today's worries.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "迷ったら、死ぬ間際の自分がどちらを選ぶか考えてみてください。",
-   "author_ja": "",
-   "en": "When in doubt, ask which choice your dying self would make.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "残りの日数は減るだけです。でも、使い方はいつでも選べます。",
-   "author_ja": "",
-   "en": "The days only count down. But how you spend them is always your choice.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "嫌いな人のことを考える時間も、残り時間から引かれています。",
-   "author_ja": "",
-   "en": "Time spent thinking about people you dislike is deducted from your remaining time too.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "先延ばしにした「いつか」は、この数字の中にしかありません。",
-   "author_ja": "",
-   "en": "Every 'someday' you postponed exists only inside this number.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "今日は、残りの人生でいちばん若い日です。",
-   "author_ja": "",
-   "en": "Today is the youngest you will ever be for the rest of your life.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  },
-  {
-   "ja": "完璧な準備が整う日は来ません。今日始めた人が間に合います。",
-   "author_ja": "",
-   "en": "The day you're perfectly ready will never come. Those who start today make it in time.",
-   "author_en": "",
-   "title_ja": "",
-   "title_en": "",
-   "ja_original": false,
-   "tip": true
-  }
- ]
+  "quotes": [
+    {
+      "ja": "自分はいつか死ぬ。それを思い出すことが、失うものなど何もないと気づく最良の方法だ。",
+      "author_ja": "スティーブ・ジョブズ",
+      "en": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.",
+      "author_en": "Steve Jobs",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "あなたの時間は限られている。他人の人生を生きて無駄にするな。",
+      "author_ja": "スティーブ・ジョブズ",
+      "en": "Your time is limited, so don't waste it living someone else's life.",
+      "author_en": "Steve Jobs",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "もし今日が人生最後の日だとしたら、今日やろうとしていることをやりたいか？",
+      "author_ja": "スティーブ・ジョブズ",
+      "en": "If today were the last day of my life, would I want to do what I am about to do today?",
+      "author_en": "Steve Jobs",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "充実した一日が安らかな眠りをもたらすように、充実した人生は安らかな死をもたらす。",
+      "author_ja": "レオナルド・ダ・ヴィンチ",
+      "en": "As a well-spent day brings happy sleep, so a life well used brings happy death.",
+      "author_en": "Leonardo da Vinci",
+      "title_ja": "芸術家",
+      "title_en": "Artist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "人生が短いのではない。我々がそれを短くしているのだ。",
+      "author_ja": "セネカ",
+      "en": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "author_en": "Seneca",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "明日を必要としない者ほど、喜んで明日を迎えられる。",
+      "author_ja": "エピクロス",
+      "en": "He who least needs tomorrow will most gladly greet tomorrow.",
+      "author_en": "Epicurus",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死も苦痛も、恐れるに足りない。恐れるべきは、それを恐れる心だ。",
+      "author_ja": "エピクテトス",
+      "en": "It is not death or pain that is to be feared, but the fear of pain or death.",
+      "author_en": "Epictetus",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "明日死ぬかのように生きよ。永遠に生きるかのように学べ。",
+      "author_ja": "ガンジー（伝）",
+      "en": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "author_en": "Attributed to Gandhi",
+      "title_ja": "独立運動家",
+      "title_en": "Independence leader",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死は生の対極としてではなく、その一部として存在している。",
+      "author_ja": "村上春樹『ノルウェイの森』",
+      "en": "Death is not the opposite of life, but a part of it.",
+      "author_en": "Haruki Murakami, Norwegian Wood",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "ひとりの人間の死とともに、未知の世界がひとつ失われる。",
+      "author_ja": "サン＝テグジュペリ",
+      "en": "With the death of each person, an unknown world is lost.",
+      "author_en": "Antoine de Saint-Exupéry",
+      "title_ja": "作家",
+      "title_en": "Writer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "生まれ変わり続けていない者は、死に続けている。",
+      "author_ja": "ボブ・ディラン",
+      "en": "He not busy being born is busy dying.",
+      "author_en": "Bob Dylan",
+      "title_ja": "ミュージシャン",
+      "title_en": "Musician",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "生きるとは、この世でもっとも稀なこと。たいていの人は、ただ存在しているだけだ。",
+      "author_ja": "オスカー・ワイルド",
+      "en": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "author_en": "Oscar Wilde",
+      "title_ja": "作家",
+      "title_en": "Writer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "退屈で死ぬより、情熱のために死にたい。",
+      "author_ja": "エミール・ゾラ『ボヌール・デ・ダム百貨店』",
+      "en": "I would rather die of passion than of boredom.",
+      "author_en": "Émile Zola, Au Bonheur des Dames",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死して不朽の見込みあらばいつでも死ぬべし。生きて大業の見込みあらばいつでも生くべし。",
+      "author_ja": "吉田松陰",
+      "en": "If dying will make you immortal, die anytime. If living will achieve great work, live on.",
+      "author_en": "Yoshida Shōin",
+      "title_ja": "思想家",
+      "title_en": "Philosopher",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "一度だけの人生だ。だから今この時だけを考えろ。過去は及ばず、未来は知れず。",
+      "author_ja": "中村天風",
+      "en": "You live only once. Think only of this moment — the past is gone, the future unknown.",
+      "author_en": "Tempu Nakamura",
+      "title_ja": "思想家",
+      "title_en": "Philosopher",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人生を愛するなら、時間を浪費するな。人生は、時間でできているのだから。",
+      "author_ja": "ベンジャミン・フランクリン",
+      "en": "Dost thou love life? Then do not squander time, for that is the stuff life is made of.",
+      "author_en": "Benjamin Franklin",
+      "title_ja": "政治家",
+      "title_en": "Statesman",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "人はみな死ぬ。だが、みなが本当に生きるわけではない。",
+      "author_ja": "映画『ブレイブハート』",
+      "en": "Every man dies. Not every man really lives.",
+      "author_en": "Braveheart (film)",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死とは、隣の部屋へ移ることにすぎない。しかもその部屋では、私の目は見えるのだ。",
+      "author_ja": "ヘレン・ケラー",
+      "en": "Death is no more than passing from one room into another. But in that other room I shall be able to see.",
+      "author_en": "Helen Keller",
+      "title_ja": "社会福祉活動家",
+      "title_en": "Author",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "傷跡ひとつないまま、死にたくはない。",
+      "author_ja": "チャック・パラニューク『ファイト・クラブ』",
+      "en": "I don't want to die without any scars.",
+      "author_en": "Chuck Palahniuk, Fight Club",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "生きるべきか、死ぬべきか、それが問題だ。",
+      "author_ja": "シェイクスピア『ハムレット』",
+      "en": "To be, or not to be, that is the question.",
+      "author_en": "Shakespeare, Hamlet",
+      "title_ja": "劇作家",
+      "title_en": "Playwright",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "大切なのは、ただ生きることではなく、善く生きることだ。",
+      "author_ja": "ソクラテス（プラトン『クリトン』）",
+      "en": "The most important thing is not life, but the good life.",
+      "author_en": "Socrates (Plato, Crito)",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "深く生きる者に、死の恐れはない。",
+      "author_ja": "アナイス・ニン",
+      "en": "People living deeply have no fear of death.",
+      "author_en": "Anaïs Nin",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "おもしろきこともなき世をおもしろく。",
+      "author_ja": "高杉晋作",
+      "en": "Make this uninteresting world interesting.",
+      "author_en": "Takasugi Shinsaku",
+      "title_ja": "幕末の志士",
+      "title_en": "Samurai",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人間五十年、下天の内をくらぶれば、夢幻のごとくなり。",
+      "author_ja": "幸若舞『敦盛』",
+      "en": "Fifty years of a human life — compared to the heavens, it is but a dream and an illusion.",
+      "author_en": "Atsumori",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "露と落ち露と消えにしわが身かな。なにはのことも夢のまた夢。",
+      "author_ja": "豊臣秀吉",
+      "en": "I came like dew and vanish like dew. All of it — a dream within a dream.",
+      "author_en": "Toyotomi Hideyoshi",
+      "title_ja": "戦国武将",
+      "title_en": "Samurai warlord",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人の一生は、重荷を負うて遠き道をゆくがごとし。急ぐべからず。",
+      "author_ja": "『東照公御遺訓』（伝・徳川家康）",
+      "en": "Life is like walking a long road with a heavy burden. Do not hurry.",
+      "author_en": "Attributed to Tokugawa Ieyasu",
+      "title_ja": "江戸幕府初代将軍",
+      "title_en": "Shogun",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人生の意味とは、それが終わるということだ。",
+      "author_ja": "カフカ（伝）",
+      "en": "The meaning of life is that it ends.",
+      "author_en": "Attributed to Franz Kafka",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死者は、生きている者の記憶のなかで生きつづける。",
+      "author_ja": "キケロ",
+      "en": "The dead live on in the memory of the living.",
+      "author_en": "Cicero",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "火星で死にたい。ただし、墜落してではなく。",
+      "author_ja": "イーロン・マスク",
+      "en": "I would like to die on Mars. Just not on impact.",
+      "author_en": "Elon Musk",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死んでいないことは、生きていることではない。",
+      "author_ja": "E・E・カミングス",
+      "en": "Unbeing dead isn't being alive.",
+      "author_en": "E. E. Cummings",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "錆びつくより、擦り切れるほうがいい。",
+      "author_ja": "英語の格言（土光敏夫の座右の銘）",
+      "en": "Better to wear out than to rust out.",
+      "author_en": "English proverb",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "80歳になって悔やむのは、やったことではない。やらなかったことだ。",
+      "author_ja": "ジェフ・ベゾス",
+      "en": "At 80, you'll regret the things you didn't do, not the things you did.",
+      "author_en": "Jeff Bezos",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "時間こそ最も希少な資源である。それを管理できなければ、何ひとつ管理できない。",
+      "author_ja": "ピーター・ドラッカー",
+      "en": "Time is the scarcest resource, and unless it is managed, nothing else can be managed.",
+      "author_en": "Peter Drucker",
+      "title_ja": "経営学者",
+      "title_en": "Management thinker",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "我、事において後悔せず。",
+      "author_ja": "宮本武蔵",
+      "en": "I regret nothing I have done.",
+      "author_en": "Miyamoto Musashi",
+      "title_ja": "剣豪",
+      "title_en": "Swordsman",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "恐れるべきは死ではない。一度も本当に生きないことだ。",
+      "author_ja": "マルクス・アウレリウス",
+      "en": "Do not fear death; fear never beginning to truly live.",
+      "author_en": "Marcus Aurelius",
+      "title_ja": "ローマ皇帝",
+      "title_en": "Roman Emperor",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "世の人は我を何とも言わば言え。我が成す事は我のみぞ知る。",
+      "author_ja": "坂本龍馬",
+      "en": "Let the world say what it will of me. Only I know what I am to accomplish.",
+      "author_en": "Sakamoto Ryōma",
+      "title_ja": "幕末の志士",
+      "title_en": "Samurai",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人生は自転車のようなものだ。倒れないためには、走りつづけるしかない。",
+      "author_ja": "アインシュタイン",
+      "en": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+      "author_en": "Albert Einstein",
+      "title_ja": "物理学者",
+      "title_en": "Physicist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "危険だ、という道は必ず、自分の行きたい道なのだ。",
+      "author_ja": "岡本太郎",
+      "en": "The path that feels dangerous is always the path you truly want to take.",
+      "author_en": "Tarō Okamoto",
+      "title_ja": "芸術家",
+      "title_en": "Artist",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "あと十年生きたいが……せめてあと五年の命があったら、ほんとうの絵師になれるのだが。",
+      "author_ja": "葛飾北斎",
+      "en": "If heaven had granted me five more years, I could have become a real painter.",
+      "author_en": "Katsushika Hokusai",
+      "title_ja": "浮世絵師",
+      "title_en": "Ukiyo-e artist",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "この世は美しい。戦う価値がある。",
+      "author_ja": "ヘミングウェイ『誰がために鐘は鳴る』",
+      "en": "The world is a fine place and worth fighting for.",
+      "author_en": "Ernest Hemingway, For Whom the Bell Tolls",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "万策尽きたと思うな。自ら断崖絶壁の淵にたて。その時はじめて新たなる風は必ず吹く。",
+      "author_ja": "松下幸之助",
+      "en": "Never think all is lost. Stand at the very edge of the cliff — only then will a new wind surely blow.",
+      "author_en": "Kōnosuke Matsushita",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人生とは、あれこれ計画を立てているうちに過ぎてゆくもの。",
+      "author_ja": "アレン・ソーンダース",
+      "en": "Life is what happens to you while you're busy making other plans.",
+      "author_en": "Allen Saunders",
+      "title_ja": "漫画原作者",
+      "title_en": "Comic strip writer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "整った心にとって、死は次の大いなる冒険にすぎない。",
+      "author_ja": "アルバス・ダンブルドア（小説『ハリー・ポッター』）",
+      "en": "To the well-organized mind, death is but the next great adventure.",
+      "author_en": "Albus Dumbledore (Harry Potter)",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "さよならをいうのは、少し死ぬことだ。",
+      "author_ja": "レイモンド・チャンドラー『長いお別れ』",
+      "en": "To say goodbye is to die a little.",
+      "author_en": "Raymond Chandler, The Long Goodbye",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "ただちに生き始めよ。一日一日を、それぞれひとつの人生として数えよ。",
+      "author_ja": "セネカ",
+      "en": "Begin at once to live, and count each separate day as a separate life.",
+      "author_en": "Seneca",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "一万年も生きるかのように振る舞うな。死はすぐそばにある。生きているあいだに、許されているあいだに、善き人であれ。",
+      "author_ja": "マルクス・アウレリウス",
+      "en": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good.",
+      "author_en": "Marcus Aurelius",
+      "title_ja": "ローマ皇帝",
+      "title_en": "Roman Emperor",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "一日一日を、最後の日であるかのように過ごすこと。取り乱さず、怠けず、偽らず。それが人格の完成である。",
+      "author_ja": "マルクス・アウレリウス",
+      "en": "Perfection of character is this: to live each day as if it were your last, without frenzy, without apathy, without pretence.",
+      "author_en": "Marcus Aurelius",
+      "title_ja": "ローマ皇帝",
+      "title_en": "Roman Emperor",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死を日々、目の前に置いておけ。卑しい考えを抱くことも、何かを欲しがりすぎることもなくなる。",
+      "author_ja": "エピクテトス",
+      "en": "Keep death before your eyes every day, and you will never entertain any abject thought, nor too eagerly covet anything.",
+      "author_en": "Epictetus",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "その日を摘め。明日をあてにするのは、できるかぎり少なく。",
+      "author_ja": "ホラティウス",
+      "en": "Seize the day, trusting as little as possible in tomorrow. (Carpe diem, quam minimum credula postero.)",
+      "author_en": "Horace",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "人は一度しか生まれない。なのにあなたは、明日の主でもないのに喜びを先送りする。人生はためらいのうちに過ぎてゆく。",
+      "author_ja": "エピクロス",
+      "en": "We are born once and cannot be born twice. You, though not master of tomorrow, postpone your happiness. Life is wasted in procrastination.",
+      "author_en": "Epicurus",
+      "title_ja": "哲学者",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "天が下のすべての事には季節があり、すべての業には時がある。",
+      "author_ja": "旧約聖書「伝道の書」",
+      "en": "To every thing there is a season, and a time to every purpose under the heaven.",
+      "author_en": "Ecclesiastes (Old Testament)",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "生涯の日を正しく数えることを教えてください。知恵ある心を得ることができますように。",
+      "author_ja": "旧約聖書「詩編」",
+      "en": "Teach us to number our days, that we may gain a heart of wisdom.",
+      "author_en": "Psalms (Old Testament)",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "ただ、今日なすべきことを熱心になせ。誰が明日の死を知ろう。",
+      "author_ja": "ブッダ",
+      "en": "Today the effort must be made; tomorrow Death may come, who knows?",
+      "author_en": "The Buddha",
+      "title_ja": "仏教開祖",
+      "title_en": "Founder of Buddhism",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "励みは不死の道、怠りは死の道。励む人は、死ぬことがない。",
+      "author_ja": "ブッダ",
+      "en": "Heedfulness is the path to the deathless; heedlessness is the path to death. The heedful do not die.",
+      "author_en": "The Buddha",
+      "title_ja": "仏教開祖",
+      "title_en": "Founder of Buddhism",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "一期一会。今日のこの出会いは、生涯にただ一度の会である。",
+      "author_ja": "井伊直弼(源流は千利休)",
+      "en": "Ichi-go ichi-e: this very encounter comes but once in a lifetime.",
+      "author_en": "Ii Naosuke (after Sen no Rikyū)",
+      "title_ja": "幕末の大老",
+      "title_en": "Edo statesman",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "日日是好日。来る日も来る日も、かけがえのない良き日である。",
+      "author_ja": "雲門文偃",
+      "en": "Every day is a good day. (Nichi nichi kore kōjitsu)",
+      "author_en": "Yunmen Wenyan",
+      "title_ja": "禅僧",
+      "title_en": "Zen master",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "生死事大、無常迅速。光陰惜しむべし、時は人を待たず。",
+      "author_ja": "禅林の偈(永嘉玄覚の語に由来)",
+      "en": "Great is the matter of birth and death; impermanence is swift. Cherish each moment, for time waits for no one.",
+      "author_en": "Zen verse (after Yongjia Xuanjue)",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "朝に道を聞かば、夕べに死すとも可なり。",
+      "author_ja": "孔子",
+      "en": "If a man in the morning hears the Way, he may die in the evening without regret.",
+      "author_en": "Confucius",
+      "title_ja": "思想家",
+      "title_en": "Philosopher",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "旅に病んで夢は枯野をかけ廻る",
+      "author_ja": "松尾芭蕉",
+      "en": "Sick on a journey, my dreams wander the withered fields.",
+      "author_en": "Matsuo Basho",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "月日は百代の過客にして、行きかふ年もまた旅人なり",
+      "author_ja": "松尾芭蕉",
+      "en": "The months and days are the travelers of eternity, and the years that come and go are travelers too.",
+      "author_en": "Matsuo Basho",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "うらを見せおもてを見せて散るもみぢ",
+      "author_ja": "良寛",
+      "en": "Showing its back, and showing its front, a maple leaf falls.",
+      "author_en": "Ryokan",
+      "title_ja": "禅僧",
+      "title_en": "Zen monk",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "悟りということは、いかなる場合にも平気で死ぬることかと思っていたのは間違いで、悟りということは、いかなる場合にも平気で生きていることであった",
+      "author_ja": "正岡子規",
+      "en": "I used to think enlightenment meant being able to die calmly in any circumstance. I was wrong — it means living calmly in any circumstance.",
+      "author_en": "Masaoka Shiki",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "糸瓜咲て痰のつまりし仏かな",
+      "author_ja": "正岡子規",
+      "en": "The loofah has bloomed — and here lies a Buddha, choked with phlegm.",
+      "author_en": "Masaoka Shiki",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "生死の中の雪ふりしきる",
+      "author_ja": "種田山頭火",
+      "en": "Amid life and death, the snow falls and keeps falling.",
+      "author_en": "Taneda Santoka",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "幾度同じ主客交はるとも、今日の会に再び返らざることを思へば、実にわが一世一度の会なり",
+      "author_ja": "井伊直弼",
+      "en": "However many times host and guest may meet again, today's gathering will never return — truly, it is the one meeting of a lifetime.",
+      "author_en": "Ii Naosuke",
+      "title_ja": "幕末の大老",
+      "title_en": "Edo statesman",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "曇りなき心の月を先立てて浮世の闇を照らしてぞ行く",
+      "author_ja": "伊達政宗",
+      "en": "With the unclouded moon of my heart to light the way, I go forth through the darkness of this fleeting world.",
+      "author_en": "Date Masamune",
+      "title_ja": "戦国武将",
+      "title_en": "Samurai warlord",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "身はたとひ武蔵の野辺に朽ちぬとも留め置かまし大和魂",
+      "author_ja": "吉田松陰",
+      "en": "Though my body may rot in the fields of Musashi, I leave behind my undying spirit.",
+      "author_en": "Yoshida Shoin",
+      "title_ja": "思想家",
+      "title_en": "Thinker",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "露の世は露の世ながらさりながら",
+      "author_ja": "小林一茶",
+      "en": "This dewdrop world is a dewdrop world — and yet, and yet.",
+      "author_en": "Kobayashi Issa",
+      "title_ja": "俳人",
+      "title_en": "Haiku poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "人、死を憎まば、生を愛すべし。存命の喜び、日々に楽しまざらんや",
+      "author_ja": "兼好法師",
+      "en": "If you hate death, then love life. Why not delight, day after day, in the joy of simply being alive?",
+      "author_en": "Yoshida Kenko",
+      "title_ja": "随筆家",
+      "title_en": "Essayist",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "ゆく河の流れは絶えずして、しかももとの水にあらず",
+      "author_ja": "鴨長明",
+      "en": "The river flows on without pause, and yet its waters are never the same.",
+      "author_en": "Kamo no Chomei",
+      "title_ja": "随筆家",
+      "title_en": "Essayist",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "つひにゆく道とはかねて聞きしかど昨日今日とは思はざりしを",
+      "author_ja": "在原業平",
+      "en": "That this is the road we all must travel in the end, I had long heard — yet I never dreamed it would be yesterday, or today.",
+      "author_en": "Ariwara no Narihira",
+      "title_ja": "歌人",
+      "title_en": "Waka poet",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "大切な時はただ一つ、「今」だ。私たちの思いのままになるのは、いまこの時だけなのだから。",
+      "author_ja": "レフ・トルストイ",
+      "en": "There is only one time that is important—Now! It is the most important time because it is the only time when we have any power.",
+      "author_en": "Leo Tolstoy",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "真冬のただなかで、私はついに知った。自分の中に、負けることのない夏があるのだと。",
+      "author_ja": "アルベール・カミュ",
+      "en": "In the midst of winter, I found there was, within me, an invincible summer.",
+      "author_en": "Albert Camus",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "自由はただひとつ。死と折り合いをつけることだ。そのあとには、すべてが可能になる。",
+      "author_ja": "アルベール・カミュ",
+      "en": "There is but one freedom, to put oneself right with death. After that, everything is possible.",
+      "author_en": "Albert Camus",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "あらゆる別れに先立って生きよ。それがもう過ぎ去ったあとであるかのように——いま去りゆく冬のように。",
+      "author_ja": "ライナー・マリア・リルケ",
+      "en": "Be ahead of all parting, as though it already were behind you, like the winter that has just gone by.",
+      "author_en": "Rainer Maria Rilke",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "時間は、私をかたちづくる素材だ。時間は私を押し流す川だが、その川こそが私なのだ。",
+      "author_ja": "ホルヘ・ルイス・ボルヘス",
+      "en": "Time is the substance I am made of. Time is a river which sweeps me along, but I am the river.",
+      "author_en": "Jorge Luis Borges",
+      "title_ja": "作家",
+      "title_en": "Writer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "まるで、永遠を傷つけずに時間をつぶせるとでもいうように。",
+      "author_ja": "ヘンリー・デイヴィッド・ソロー",
+      "en": "As if you could kill time without injuring eternity.",
+      "author_en": "Henry David Thoreau",
+      "title_ja": "思想家",
+      "title_en": "Philosopher",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "人からすべてを奪うことはできても、最後の自由だけは奪えない。どんな状況でも、自分のあり方を選ぶ自由だ。",
+      "author_ja": "ヴィクトール・フランクル",
+      "en": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances.",
+      "author_en": "Viktor E. Frankl",
+      "title_ja": "精神科医",
+      "title_en": "Psychiatrist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "二度と戻らない。だからこそ、人生はこんなにも愛おしい。",
+      "author_ja": "エミリー・ディキンソン",
+      "en": "That it will never come again / Is what makes life so sweet.",
+      "author_en": "Emily Dickinson",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "物理学を信じる私たちは知っている。過去・現在・未来の区別など、どこまでも頑固な幻想にすぎないことを。",
+      "author_ja": "アルベルト・アインシュタイン",
+      "en": "People like us, who believe in physics, know that the distinction between past, present and future is only a stubbornly persistent illusion.",
+      "author_en": "Albert Einstein",
+      "title_ja": "物理学者",
+      "title_en": "Physicist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "私たちのようにちっぽけな生き物が、この宇宙の広大さに耐えられるのは、愛があるからだ。",
+      "author_ja": "カール・セーガン",
+      "en": "For small creatures such as we the vastness is bearable only through love.",
+      "author_en": "Carl Sagan",
+      "title_ja": "天文学者",
+      "title_en": "Astronomer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "教えてほしい。たった一度きりの、野性のままの、かけがえのないその人生を、あなたはどう生きるのか。",
+      "author_ja": "メアリー・オリヴァー",
+      "en": "Tell me, what is it you plan to do with your one wild and precious life?",
+      "author_en": "Mary Oliver",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "蝶は月日ではなく、瞬間を数える。だから蝶には、時間がじゅうぶんにある。",
+      "author_ja": "ラビンドラナート・タゴール",
+      "en": "The butterfly counts not months but moments, and has time enough.",
+      "author_en": "Rabindranath Tagore",
+      "title_ja": "詩人",
+      "title_en": "Poet",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "あらゆる始まりには魔法が宿っている。その魔法が私たちを守り、生きる力をくれる。",
+      "author_ja": "ヘルマン・ヘッセ",
+      "en": "And in each beginning dwells a magic, protecting us and helping us to live.",
+      "author_en": "Hermann Hesse",
+      "title_ja": "作家",
+      "title_en": "Novelist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "人生はクローズアップで見れば悲劇だが、ロングショットで見れば喜劇だ。",
+      "author_ja": "チャールズ・チャップリン",
+      "en": "Life is a tragedy when seen in close-up, but a comedy in long-shot.",
+      "author_en": "Charlie Chaplin",
+      "title_ja": "喜劇王",
+      "title_en": "Comedian",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "死ぬのは怖くない。ただ、急いで死ぬ気もない。その前に、やりたいことが山ほどあるのだから。",
+      "author_ja": "スティーヴン・ホーキング",
+      "en": "I'm not afraid of death, but I'm in no hurry to die. I have so much I want to do first.",
+      "author_en": "Stephen Hawking",
+      "title_ja": "物理学者",
+      "title_en": "Physicist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "足元ではなく、星を見上げよう。目に映るものの意味を考え、宇宙がなぜ在るのかに驚こう。好奇心を忘れずに。",
+      "author_ja": "スティーヴン・ホーキング",
+      "en": "Look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the universe exist. Be curious.",
+      "author_en": "Stephen Hawking",
+      "title_ja": "物理学者",
+      "title_en": "Physicist",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "時間こそ、あなたの持ちもののすべて。そしていつか、思っていたより残り少ないと気づく日が来る。",
+      "author_ja": "ランディ・パウシュ",
+      "en": "Time is all you have. And you may find one day that you have less than you think.",
+      "author_en": "Randy Pausch",
+      "title_ja": "大学教授",
+      "title_en": "Professor",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "がんは私の身体の自由を奪える。だが、私の知性には触れられない。心にも、魂にも、決して触れられない。",
+      "author_ja": "ジム・ヴァルヴァーノ",
+      "en": "Cancer can take away all of my physical abilities. It cannot touch my mind, it cannot touch my heart, and it cannot touch my soul.",
+      "author_en": "Jim Valvano",
+      "title_ja": "バスケットボール指導者",
+      "title_en": "Basketball coach",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "50歳になっても20歳の頃と同じ目で世界を見ている人は、人生の30年を無駄にしたことになる。",
+      "author_ja": "モハメド・アリ",
+      "en": "The man who views the world at 50 the same as he did at 20 has wasted 30 years of his life.",
+      "author_en": "Muhammad Ali",
+      "title_ja": "ボクサー",
+      "title_en": "Boxer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "結局のところ、人は自らの選択でできている。自分の物語を、誇れるものにしなさい。",
+      "author_ja": "ジェフ・ベゾス",
+      "en": "In the end, we are our choices. Build yourself a great story.",
+      "author_en": "Jeff Bezos",
+      "title_ja": "実業家",
+      "title_en": "Entrepreneur",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "俺の人生に意味があるのは、多くの人を助けられるときだけだ。",
+      "author_ja": "ボブ・マーリー",
+      "en": "My life is only important if me can help plenty people.",
+      "author_en": "Bob Marley",
+      "title_ja": "レゲエ歌手",
+      "title_en": "Reggae musician",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "早起きして、懸命に打ち込んだあの時間。あれこそが実は、夢そのものなんだ。目的地ではなく、旅こそが。",
+      "author_ja": "コービー・ブライアント",
+      "en": "Those times you get up early and you work hard... that is actually the dream. It's not the destination, it's the journey.",
+      "author_en": "Kobe Bryant",
+      "title_ja": "バスケットボール選手",
+      "title_en": "Basketball player",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "体は神殿ではなく、遊園地だ。この乗り物を、思いきり楽しめばいい。",
+      "author_ja": "アンソニー・ボーデイン",
+      "en": "Your body is not a temple, it's an amusement park. Enjoy the ride.",
+      "author_en": "Anthony Bourdain",
+      "title_ja": "料理人",
+      "title_en": "Chef",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "この先どこへ向かうかは分からない。ただ、退屈にはならない。それだけは約束する。",
+      "author_ja": "デヴィッド・ボウイ",
+      "en": "I don't know where I'm going from here, but I promise it won't be boring.",
+      "author_en": "David Bowie",
+      "title_ja": "ロック歌手",
+      "title_en": "Rock musician",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "僕はもう人生を丸ごと生き切った。だから明日死んだって、少しもかまわないんだ。",
+      "author_ja": "フレディ・マーキュリー",
+      "en": "As far as I'm concerned, I've lived a full life and if I'm dead tomorrow, I don't give a damn.",
+      "author_en": "Freddie Mercury",
+      "title_ja": "ロック歌手",
+      "title_en": "Rock singer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "幸せになると決めるのを、人生がつらくなくなる日まで待っていてはいけないの。",
+      "author_ja": "ナイトバード（ジェーン・マルチェフスキ）",
+      "en": "You can't wait until life isn't hard anymore before you decide to be happy.",
+      "author_en": "Nightbirde (Jane Marczewski)",
+      "title_ja": "歌手",
+      "title_en": "Singer",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "たとえ死にゆく身であっても、実際に死ぬその瞬間までは、私はまだ生きている。",
+      "author_ja": "ポール・カラニシ",
+      "en": "Even if I'm dying, until I actually die, I am still living.",
+      "author_en": "Paul Kalanithi",
+      "title_ja": "脳神経外科医",
+      "title_en": "Neurosurgeon",
+      "ja_original": false,
+      "tip": false
+    },
+    {
+      "ja": "おごらず、人と比べず、面白がって、平気に生きればいい。",
+      "author_ja": "樹木希林",
+      "en": "Don't be proud. Don't compare yourself to others. Find the fun in things, and live with an easy heart.",
+      "author_en": "Kirin Kiki",
+      "title_ja": "女優",
+      "title_en": "Actress",
+      "ja_original": true,
+      "tip": false
+    },
+    {
+      "ja": "キャリアではなく、目的を見つけなさい。目的こそが、あなたという人間の核をなすものだから。",
+      "author_ja": "チャドウィック・ボーズマン",
+      "en": "You would rather find purpose than a career. Purpose is an essential element of you that crosses disciplines.",
+      "author_en": "Chadwick Boseman",
+      "title_ja": "俳優",
+      "title_en": "Actor",
+      "ja_original": false,
+      "tip": false
+    }
+  ],
+  "tips": [
+    {
+      "ja": "辛いことがあったかもしれない。どのみち人はみな死ぬ。だから大丈夫。",
+      "author_ja": "",
+      "en": "Today may have been hard. Everyone dies in the end. So it's fine.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "今日の悩みの大半は、10年後には思い出せない。",
+      "author_ja": "",
+      "en": "Ten years from now, you won't remember most of what worries you today.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "迷ったとき、答えを知っているのは死ぬ間際の自分。",
+      "author_ja": "",
+      "en": "When you can't decide, the one who knows is you at the very end.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "残りの日数は減るだけ。使い方だけが、いつでも選べる。",
+      "author_ja": "",
+      "en": "The number of days only goes down. How you spend them is always yours to choose.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "嫌いな人を思い出している時間も、残りから引かれている。",
+      "author_ja": "",
+      "en": "The time you spend thinking about someone you dislike comes out of the same total.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "先延ばしにした「いつか」があるのは、この数字の中だけ。",
+      "author_ja": "",
+      "en": "The someday you keep postponing exists only inside this number.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "今日は、残りの人生でいちばん若い日。",
+      "author_ja": "",
+      "en": "Today is the youngest day of the rest of your life.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    },
+    {
+      "ja": "完璧に準備が整う日は来ない。間に合うのは、今日始めた人。",
+      "author_ja": "",
+      "en": "The day you're fully ready never comes. The ones who make it started today.",
+      "author_en": "",
+      "title_ja": "",
+      "title_en": "",
+      "ja_original": false,
+      "tip": true
+    }
+  ]
 }
